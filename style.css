@@ -269,7 +269,6 @@ body {
   max-width: 1200px;
 }
 
-
 /* ICONO */
 .category-icon {
   width: 40px;
@@ -406,6 +405,13 @@ body {
   font-size: 14px;
   color: #3f6f52;
 }
+
+.benefit {
+  background: #f7f7f7;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
 
 /* FOOTER */
 .footer {
