@@ -74,8 +74,16 @@ a.btn-card:hover {
 
 /* LOGO */
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
   font-weight: bold;
   font-size: 20px;
+}
+
+.logo img {
+  height: 100px;
+  width: auto;
 }
 
 /* BUSCADOR */
@@ -236,6 +244,28 @@ a.btn-card:hover {
   border-radius: 8px;
 }
 
+.btn-add {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(135deg, #5fa87a, #3f6f52);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.btn-add:hover {
+  background: var(--green-dark);
+  transform: translateY(-1px);
+}
+
+.btn-add:active {
+  transform: scale(0.98);
+}
+
+
 /* ETIQUETA */
 .tag {
   font-size: 12px;
@@ -360,16 +390,22 @@ a.btn-card:hover {
 }
 
 /* BOTÓN */
+
 .btn-card {
   margin-top: auto;
   width: 100%;
   padding: 10px;
   border-radius: 10px;
   border: none;
-  background: #e2e2e2;
-  color: #aaa;
+  background: var(--green);
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease;
 }
 
+.btn-card:hover {
+  background: var(--green-dark);
+}
 
 /* CATEGORÍAS */
 .category-grid {
@@ -490,6 +526,17 @@ a.btn-card:hover {
 .footer-copy {
   font-size: 14px;
   color: #d6e5dc;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer-logo img {
+  height: 50px;
+  width: auto;
 }
 
 /* RESPONSIVE */

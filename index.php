@@ -27,7 +27,7 @@
 
         <!-- ICONO/IMAGEN -->
         <div class="card-image ">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/product1.jpg" alt="Producto pollo barf">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/icons/green-box.png" alt="Producto pollo barf">
         </div>
 
         <!--INFO -->
@@ -52,7 +52,7 @@
     <!-- PRODUCTO 1 -->
     <article class="product-card">
       <div class="product-image">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/product1.jpg" alt="Pollo Barf">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/green-box.png" alt="Pollo Barf">
       </div>
       <span class="product-category">BARF</span>
       <h3>Pollo Barf</h3>
@@ -64,7 +64,7 @@
     <!-- PRODUCTO 2 -->
     <article class="product-card">
       <div class="product-image">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/product2.jpg" alt="Ganso con calabaza">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/green-box.png" alt="Ganso con calabaza">
       </div>
       <span class="product-category">BLANDA</span>
       <h3>Ganso con calabaza</h3>
@@ -76,7 +76,7 @@
     <!-- PRODUCTO 3 -->
     <article class="product-card">
       <div class="product-image">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/product3.jpg" alt="Cordero atún pollo">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/green-box.png" alt="Cordero atún pollo">
       </div>
       <span class="product-category">DURA</span>
       <h3>Cordero / Atún / Pollo</h3>

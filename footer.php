@@ -4,7 +4,7 @@
 
     <!-- IZQUIERDA -->
     <div class="footer-logo">
-      🐾 Happy Meal
+      <img src="<?php echo get_template_directory_uri(); ?>/images/logos/Logo3.png" alt="Logo">
     </div>
 
     <!-- CENTRO -->

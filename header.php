@@ -17,7 +17,7 @@
 
       <!-- LOGO -->
       <div class="logo">
-        🐾 <span>Happy Meal</span>
+        <img src="<?php echo get_template_directory_uri(); ?>/images/logos/Logo3.png" alt="Logo">
       </div>
 
       <!-- BUSCADOR -->
@@ -40,7 +40,7 @@
           <img src="<?php echo get_template_directory_uri(); ?>/images/icons/shopping-cart.png"
           alt="Icono de carrito">
           <span>Carro</span>
-          <div class="badge">2</div>
+          <div class="badge" id="cart-count">0</div>
         </div>
 
       </div>
