@@ -9,13 +9,14 @@
 
     <!-- CENTRO -->
     <div class="footer-links">
-      <a>Política de privacidad</a>
-      <a>Aviso legal</a>
-      <a>Contacto</a>
+      <a href="#">Política de privacidad</a>
+      <a href="#">Aviso legal</a>
+      <a href="#">Contacto</a>
     </div>
 
     <!-- DERECHA -->
     <div class="footer-copy">
+      <p>Icons by <a href="https://icons8.com" target="_blank">Icons8</a></p>
       © 2024 Happy Meal
     </div>
 
