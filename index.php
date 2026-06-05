@@ -34,7 +34,7 @@
           <h3>Pollo Barf</h3>
           <p>Elaborado con carne 100% de Pollo. Natural sin aditivos ni conservantes.</p>
           <p class="price">2,95 € /500gr</p>
-          <button class="btn-add">Añadir al carrito</button>
+          <button class="btn-add add-to-cart">Añadir al carrito</button>
         </div>
 
       </div>
