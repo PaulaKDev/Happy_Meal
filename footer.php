@@ -16,8 +16,8 @@
 
     <!-- DERECHA -->
     <div class="footer-copy">
-      <p>Icons by <a href="https://icons8.com" target="_blank">Icons8</a></p>
-      © 2024 Happy Meal
+      <p>Icons by <a href="https://icons8.com" target="_blank" rel="noopener noreferrer">Icons8</a></p>
+      <p>© 2024 Happy Meal</p>
     </div>
 
   </div>

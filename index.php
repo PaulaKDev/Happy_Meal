@@ -25,12 +25,10 @@
 
       <div class="card-content">
 
-        <!-- ICONO/IMAGEN -->
-        <div class="card-image ">
+        <div class="card-image">
           <img src="<?php echo get_template_directory_uri(); ?>/images/icons/green-box.png" alt="Producto pollo barf">
         </div>
 
-        <!--INFO -->
         <div class="card-info">
           <span class="category small">Barf</span>
           <h3>Pollo Barf</h3>
@@ -38,85 +36,93 @@
           <p class="price">2,95 € /500gr</p>
           <button class="btn-add">Añadir al carrito</button>
         </div>
+
       </div>
     </div>
+
+  </div>
 </section>
 
 
 <!-- PRODUCTOS -->
-<section id="productos" class="products container">
-  <h2 class="section-title">PRODUCTOS DESTACADOS</h2>
+<section id="productos" class="products">
+  <div class="container">
 
-  <div class="product-grid">
+    <h2 class="section-title">PRODUCTOS DESTACADOS</h2>
 
-    <!-- PRODUCTO 1 -->
-    <article class="product-card">
-      <div class="product-image">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/green-box.png" alt="Pollo Barf">
-      </div>
-      <span class="product-category">BARF</span>
-      <h3>Pollo Barf</h3>
-      <p>Carne 100% de Pollo. Natural sin aditivos ni conservantes.</p>
-      <p class="price">2,95 €</p>
-      <button class="btn-card">Añadir</button>
-    </article>
+    <div class="product-grid">
 
-    <!-- PRODUCTO 2 -->
-    <article class="product-card">
-      <div class="product-image">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/green-box.png" alt="Ganso con calabaza">
-      </div>
-      <span class="product-category">BLANDA</span>
-      <h3>Ganso con calabaza</h3>
-      <p>Ingredientes de calidad BIO. Grain free para digestión sensible.</p>
-      <p class="price">2,75 €</p>
-      <button class="btn-card">Añadir</button>
-    </article>
+      <article class="product-card">
+        <div class="product-image">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/icons/green-box.png" alt="Pollo Barf">
+        </div>
+        <span class="product-category">BARF</span>
+        <h3>Pollo Barf</h3>
+        <p>Carne 100% de Pollo. Natural sin aditivos ni conservantes.</p>
+        <p class="price">2,95 €</p>
+        <button class="btn-card add-to-cart">Añadir</button>
+      </article>
 
-    <!-- PRODUCTO 3 -->
-    <article class="product-card">
-      <div class="product-image">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/green-box.png" alt="Cordero atún pollo">
-      </div>
-      <span class="product-category">DURA</span>
-      <h3>Cordero / Atún / Pollo</h3>
-      <p>Formulado para todo tipo de raza canina adulta. Bajo en cereal.</p>
-      <p class="price">44,90 €</p>
-      <button class="btn-card">Añadir</button>
-    </article>
+      <article class="product-card">
+        <div class="product-image">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/icons/green-box.png" alt="Ganso con calabaza">
+        </div>
+        <span class="product-category">BLANDA</span>
+        <h3>Ganso con calabaza</h3>
+        <p>Ingredientes de calidad BIO. Grain free para digestión sensible.</p>
+        <p class="price">2,75 €</p>
+        <button class="btn-card add-to-cart">Añadir</button>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/icons/green-box.png" alt="Cordero atún pollo">
+        </div>
+        <span class="product-category">DURA</span>
+        <h3>Cordero / Atún / Pollo</h3>
+        <p>Formulado para todo tipo de raza canina adulta. Bajo en cereal.</p>
+        <p class="price">44,90 €</p>
+        <button class="btn-card add-to-cart">Añadir</button>
+      </article>
+
+    </div>
 
   </div>
 </section>
 
 
 <!-- CATEGORÍAS -->
-<section class="categories container">
-  <h2 class="section-title">CATEGORÍAS</h2>
+<section class="categories">
+  <div class="container">
 
-  <div class="category-grid">
+    <h2 class="section-title">CATEGORÍAS</h2>
 
-    <div class="category-card">
-      <div class="category-icon">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/green-steak.png" alt="Dieta Barf">
+    <div class="category-grid">
+
+      <div class="category-card">
+        <div class="category-icon">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/icons/green-steak.png" alt="Dieta Barf">
+        </div>
+        <h3>Dieta Barf</h3>
+        <p>Alimentación cruda y natural</p>
       </div>
-      <h3>Dieta Barf</h3>
-      <p>Alimentación cruda y natural</p>
-    </div>
 
-    <div class="category-card">
-      <div class="category-icon">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/green-bowl.png" alt="Dieta Blanda">
+      <div class="category-card">
+        <div class="category-icon">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/icons/green-bowl.png" alt="Dieta Blanda">
+        </div>
+        <h3>Dieta Blanda</h3>
+        <p>Comida húmeda y suave</p>
       </div>
-      <h3>Dieta Blanda</h3>
-      <p>Comida húmeda y suave</p>
-    </div>
 
-    <div class="category-card">
-      <div class="category-icon">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/green-bone.png" alt="Dieta Dura">
+      <div class="category-card">
+        <div class="category-icon">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/icons/green-bone.png" alt="Dieta Dura">
+        </div>
+        <h3>Dieta Dura</h3>
+        <p>Pienso seco y croquetas</p>
       </div>
-      <h3>Dieta Dura</h3>
-      <p>Pienso seco y croquetas</p>
+
     </div>
 
   </div>
@@ -124,20 +130,24 @@
 
 
 <!-- INFO -->
-<section id="info" class="info container">
-  <div class="info-box">
+<section id="info" class="info">
+  <div class="container">
 
-    <div class="info-icon">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/icons/dgreen-leaf.png" alt="Hoja verde">
-    </div>
+    <div class="info-box">
 
-    <div class="info-text">
-      <h3>Cuida la alimentación de tu compañero</h3>
-      <p>
-        Darle a tu perro comida BIO ayudará a mejorar su salud digestiva,
-        pelaje y energía. Es esencial mantener una dieta equilibrada para
-        satisfacer todas sus necesidades nutricionales.
-      </p>
+      <div class="info-icon">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/icons/dgreen-leaf.png" alt="Hoja verde">
+      </div>
+
+      <div class="info-text">
+        <h3>Cuida la alimentación de tu compañero</h3>
+        <p>
+          Darle a tu perro comida BIO ayudará a mejorar su salud digestiva,
+          pelaje y energía. Es esencial mantener una dieta equilibrada para
+          satisfacer todas sus necesidades nutricionales.
+        </p>
+      </div>
+
     </div>
 
   </div>
