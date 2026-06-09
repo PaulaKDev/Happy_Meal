@@ -30,19 +30,39 @@
       <!-- ICONOS -->
       <div class="header-icons">
 
-        <div class="icon profile">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/icons/user.png" alt="Perfil">
-          <span>Perfil</span>
-        </div>
+  <!-- PERFIL -->
+  <div class="icon profile">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/icons/user.png" alt="Perfil">
+    <span>Perfil</span>
+  </div>
 
-        <div class="icon cart">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/icons/shopping-cart.png" alt="Carrito">
-          <span>Carro</span>
-          <div class="badge" id="cart-count">0</div>
-        </div>
+  <!-- CARRITO -->
+  <div class="icon cart">
 
+    <img src="<?php echo get_template_directory_uri(); ?>/images/icons/shopping-cart.png" alt="Carrito">
+    <span>Carro</span>
+
+    <div class="badge" id="cart-count">0</div>
+
+    <!-- PANEL -->
+    <div class="cart-panel" id="cart-panel">
+
+      <h4>Tu carrito</h4>
+
+      <div id="cart-items"></div>
+
+      <div class="cart-footer">
+        <p>Total: <span id="cart-total">0€</span></p>
+
+        <button class="btn-card">Comprar</button>
+        <button id="clear-cart">Vaciar</button>
       </div>
+
     </div>
+
+  </div>
+
+</div>
 
     <!-- MENÚ -->
     <nav class="nav">

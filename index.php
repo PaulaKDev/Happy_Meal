@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<main>
 
 <!-- HERO -->
 <section class="hero">
@@ -32,9 +33,18 @@
         <div class="card-info">
           <span class="category small">Barf</span>
           <h3>Pollo Barf</h3>
-          <p>Elaborado con carne 100% de Pollo. Natural sin aditivos ni conservantes.</p>
+
+          <p class="product-desc">
+            Elaborado con carne 100% de Pollo. Natural sin aditivos ni conservantes.
+          </p>
+
           <p class="price">2,95 € /500gr</p>
-          <button class="btn-add add-to-cart">Añadir al carrito</button>
+
+          <button class="btn-add add-to-cart"
+                  data-name="Pollo Barf"
+                  data-price="2.95">
+            Añadir al carrito
+          </button>
         </div>
 
       </div>
@@ -42,7 +52,6 @@
 
   </div>
 </section>
-
 
 <!-- PRODUCTOS -->
 <section id="productos" class="products">
@@ -52,37 +61,76 @@
 
     <div class="product-grid">
 
+      <!-- PRODUCTO 1 -->
       <article class="product-card">
+
         <div class="product-image">
           <img src="<?php echo get_template_directory_uri(); ?>/images/icons/green-box.png" alt="Pollo Barf">
         </div>
+
         <span class="product-category">BARF</span>
         <h3>Pollo Barf</h3>
-        <p>Carne 100% de Pollo. Natural sin aditivos ni conservantes.</p>
+
+        <p class="product-desc">
+          Carne 100% de Pollo. Natural sin aditivos ni conservantes.
+        </p>
+
         <p class="price">2,95 €</p>
-        <button class="btn-card add-to-cart">Añadir</button>
+
+        <button class="btn-card add-to-cart"
+                data-name="Pollo Barf"
+                data-price="2.95">
+          Añadir
+        </button>
+
       </article>
 
+      <!-- PRODUCTO 2 -->
       <article class="product-card">
+
         <div class="product-image">
           <img src="<?php echo get_template_directory_uri(); ?>/images/icons/green-box.png" alt="Ganso con calabaza">
         </div>
+
         <span class="product-category">BLANDA</span>
         <h3>Ganso con calabaza</h3>
-        <p>Ingredientes de calidad BIO. Grain free para digestión sensible.</p>
+
+        <p class="product-desc">
+          Ingredientes de calidad BIO. Grain free para digestión sensible.
+        </p>
+
         <p class="price">2,75 €</p>
-        <button class="btn-card add-to-cart">Añadir</button>
+
+        <button class="btn-card add-to-cart"
+                data-name="Ganso con calabaza"
+                data-price="2.75">
+          Añadir
+        </button>
+
       </article>
 
+      <!-- PRODUCTO 3 -->
       <article class="product-card">
+
         <div class="product-image">
           <img src="<?php echo get_template_directory_uri(); ?>/images/icons/green-box.png" alt="Cordero atún pollo">
         </div>
+
         <span class="product-category">DURA</span>
         <h3>Cordero / Atún / Pollo</h3>
-        <p>Formulado para todo tipo de raza canina adulta. Bajo en cereal.</p>
+
+        <p class="product-desc">
+          Formulado para todo tipo de raza canina adulta. Bajo en cereal.
+        </p>
+
         <p class="price">44,90 €</p>
-        <button class="btn-card add-to-cart">Añadir</button>
+
+        <button class="btn-card add-to-cart"
+                data-name="Cordero / Atún / Pollo"
+                data-price="44.90">
+          Añadir
+        </button>
+
       </article>
 
     </div>
@@ -175,5 +223,6 @@
 
   </div>
 </section>
+</main>
 
 <?php get_footer(); ?>
